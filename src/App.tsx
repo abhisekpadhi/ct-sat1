@@ -18,7 +18,7 @@ function App() {
     }).then(res => {
       console.log(`set res: ${JSON.stringify(res)}`);
     }).catch(err => {
-      console.log(`set res: ${JSON.stringify(err)}`);
+      console.log(`set err: ${JSON.stringify(err)}`);
     });
   }, [])
   return (
