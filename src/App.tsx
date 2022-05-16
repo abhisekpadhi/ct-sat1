@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     set({
       // This is the URL at which you've hosted the output of `createIframe`, above:
-      iframeUrl: 'https://classy-tartufo-cde318.netlify.app/',
+      iframeUrl: 'https://tosshub.netlify.app/',
       dataKey: 'chocolate-chip-oatmeal',
       data: {
         c: 'is for localStorage',
